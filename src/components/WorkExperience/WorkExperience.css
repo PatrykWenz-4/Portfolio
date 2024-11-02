@@ -1,0 +1,25 @@
+.work-experience-section {
+    width: 100vw;
+    background-color: #2b78c5;
+    min-height: 10vh;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.work-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20rem;
+}
+
+.work-image {
+    width: 60%;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.work-text-container {
+    text-align: left;
+    flex: 1;
+}

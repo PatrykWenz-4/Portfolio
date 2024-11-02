@@ -1,0 +1,31 @@
+.about-section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 2rem;
+}
+
+.about-text-container {
+	max-width: 640px;
+	text-align: left;
+	margin-right: 28rem;
+}
+
+.about-text-container h2 {
+	font-size: 2rem;
+}
+
+.about-text-container h1 {
+	font-size: 4rem;
+	color: #3490dc;
+}
+
+.about-text-container h3 {
+	font-size: 1.7rem;
+}
+
+.about-text-container-special {
+	font-size: 1.7rem;
+	color: #3490dc;
+}
