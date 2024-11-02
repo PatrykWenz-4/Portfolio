@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+
+
 .work-experience-section {
     width: 100vw;
     background-color: #2b78c5;
