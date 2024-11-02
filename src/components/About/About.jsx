@@ -5,7 +5,7 @@ const About = () => {
 		<section className="about-section">
 			<div className="about-text-container">
 				<h2>Hello, my name is</h2>
-				<h1>Patryk</h1>
+				<h1>Patryk Wenz</h1>
 				<h3>
 					I am a software engineer with a passion for developing
 					innovative solutions. I am currently researching vector
