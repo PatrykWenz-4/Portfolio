@@ -29,3 +29,13 @@
 	font-size: 1.7rem;
 	color: #3490dc;
 }
+
+.about-social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.about-social-links a {
+    color: inherit;
+    text-decoration: none;
+}

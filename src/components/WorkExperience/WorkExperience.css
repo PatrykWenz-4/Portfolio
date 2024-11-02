@@ -6,6 +6,20 @@
     position: relative;
 }
 
+.work-experience-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+}
+
+.work-experience-tech-used {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+}
+
 .work-content {
     display: flex;
     align-items: center;
@@ -22,4 +36,9 @@
 .work-text-container {
     text-align: left;
     flex: 1;
+}
+.spacer {
+    height: 20px; 
+    width: 100%; 
+    background-color: #282c34; /* No background color */
 }
