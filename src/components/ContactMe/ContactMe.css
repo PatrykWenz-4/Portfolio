@@ -2,48 +2,56 @@ body {
 	overflow-x: hidden;
 }
 
-.experience-experience-section {
+.contactMe-contactMe-section {
 	width: 100vw;
-	background-color: #2bc570;
+	background-color: #76c4ae;
 	min-height: 10vh;
+	padding: 2rem 0;
 	position: relative;
+	justify-content: center;
+	flex-direction: column;
 }
 
-.experience-experience-title {
+.contactMe-contactMe-title {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
 	font-weight: bold;
 }
 
-.experience-experience-tech-used {
+.contactMe-contactMe-tech-used {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
 	font-weight: bold;
 }
 
-.experience-content {
+.contactMe-content {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 0 20rem;
-	margin-bottom: 2rem;
-
 }
 
-.experience-image {
+.contactMe-image {
 	width: 60%;
 	height: auto;
 	margin-right: 2rem;
 }
 
-.experience-text-container {
+.contactMe-text-container {
 	text-align: left;
 	flex: 1;
 }
-.experience-spacer {
+.contactMe-spacer {
 	height: 20px;
 	width: 100%;
 	background-color: #282c34;
+}
+
+.contactMe-mail {
+	margin-top: 2rem;
+    text-align: center;
+	margin-bottom: 8rem;
+
 }

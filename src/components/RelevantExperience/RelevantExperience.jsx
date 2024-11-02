@@ -22,6 +22,7 @@ const RelevantExperience = () => {
 
 				</div>
 			</div>
+			<div className="experience-spacer"></div>
 
 		</section>
 	);

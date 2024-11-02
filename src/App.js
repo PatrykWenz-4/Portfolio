@@ -1,6 +1,9 @@
 import About from "./components/About/About";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import RelevantExperience from "./components/RelevantExperience/RelevantExperience";
+import ContactMe from "./components/ContactMe/ContactMe";
+import Footer from "./components/Footer/Footer";
+// import Header from "./components/Header/Header";
 
 
 function App() {
@@ -11,10 +14,16 @@ function App() {
 					<About />
 				</section>
 				<section id="workExperience">
-					<WorkExperience /> 
+					<WorkExperience />
 				</section>
 				<section id="about">
 					<RelevantExperience />
+				</section>
+				<section id="ContactMe">
+					<ContactMe />
+				</section>
+				<section id="footer">
+					<Footer />
 				</section>
 			</header>
 		</div>
