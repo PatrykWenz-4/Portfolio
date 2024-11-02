@@ -1,49 +1,48 @@
 body {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
-
 .work-experience-section {
-    width: 100vw;
-    background-color: #2b78c5;
-    min-height: 10vh;
-    padding: 2rem 0;
-    position: relative;
+	width: 100vw;
+	background-color: #2b78c5;
+	min-height: 10vh;
+	position: relative;
 }
 
 .work-experience-title {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-weight: bold;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-weight: bold;
 }
 
 .work-experience-tech-used {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-weight: bold;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-weight: bold;
 }
 
 .work-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20rem;
+	margin-bottom: 2rem;
 }
 
 .work-image {
-    width: 60%;
-    height: auto;
-    margin-right: 2rem;
+	width: 60%;
+	height: auto;
+	margin-right: 2rem;
 }
 
 .work-text-container {
-    text-align: left;
-    flex: 1;
+	text-align: left;
+	flex: 1;
 }
-.spacer {
-    height: 20px; 
-    width: 100%; 
-    background-color: #282c34; /* No background color */
+.work-spacer {
+	height: 20px;
+	width: 100%;
+	background-color: #282c34;
 }

@@ -1,7 +1,7 @@
 import "./WorkExperience.css";
 import myImage from "../images/iGabinet.jpg";
-import { FaBriefcase, FaJs, FaHtml5, FaDocker, FaReact   } from "react-icons/fa";
-import { SiPhp, SiMysql  } from "react-icons/si";
+import { FaBriefcase, FaJs, FaHtml5, FaDocker, FaReact } from "react-icons/fa";
+import { SiPhp, SiMysql } from "react-icons/si";
 
 const WorkExperience = () => {
 	return (
@@ -16,17 +16,16 @@ const WorkExperience = () => {
 					<p className="text-sm mr-2">August 2024 - Today 2024</p>
 				</div>
 				<div className="work-text-container ml-4">
-					<h1 className="mt-4 text-xl font-bold ">
+					<h1 className="mt-4 text-xl font-bold">
 						Full-Stack Developer
 					</h1>
-
 					<h1 className="mt-4 text-xl font-bold work-experience-tech-used">
-						<FaJs /> <SiPhp /> <FaHtml5 /> <FaDocker /> <FaReact /> <SiMysql /> 
+						<FaJs /> <SiPhp /> <FaHtml5 /> <FaDocker /> <FaReact />
+						<SiMysql />
 					</h1>
-
 				</div>
 			</div>
-			<div className="spacer"></div>
+			<div className="work-spacer"></div>
 		</section>
 	);
 };
