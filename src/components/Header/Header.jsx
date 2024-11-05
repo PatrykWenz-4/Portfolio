@@ -1,22 +1,23 @@
-import "./Footer.css";
-import { GrCertificate } from "react-icons/gr";
+import "./Header.css";
 
-const Footer = () => {
+const Header = () => {
 	return (
 		<section className="header-header-section">
-			<h1 className="ml-80 font-bold header-header-title">
-				<GrCertificate />
-				Contact me
-			</h1>
-			<div className="header-content flex items-center">
-				<div className="header-text-container ml-4">
-					<p className="text-base leading-relaxed mt-2 ml-2"></p>
-					<div>
-					</div>
+			<div className="header-content">
+				<div className="header-text-container">
+					<p>Patryk Wenz</p>
 				</div>
 			</div>
+			<nav className="header-nav">
+				<ul className="nav-links">
+					<li><a href="#About">About</a></li>
+					<li><a href="#workExperience">Work Experience</a></li>
+					<li><a href="#RelevantExperience">Relevant Experience</a></li>
+					<li><a href="#ContactMe">Contact Me</a></li>
+				</ul>
+			</nav>
 		</section>
 	);
 };
 
-export default Footer;
+export default Header;
