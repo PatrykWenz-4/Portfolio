@@ -20,7 +20,7 @@ function App() {
 					<Header />
 					<Routes>
 						<Route
-							path="/Home"
+							path="/Portfolio"
 							element={
 								<>
 									<section id="About">
@@ -41,8 +41,8 @@ function App() {
 								</>
 							}
 						/>
-						<Route path="/blog" element={<Blog />} />
-						<Route path="/docker-details" element={<DockerDetails />} />
+						<Route path="/Portfolio/blog" element={<Blog />} />
+						<Route path="/Portfolio/docker-details" element={<DockerDetails />} />
 					</Routes>
 				</header>
 			</div>

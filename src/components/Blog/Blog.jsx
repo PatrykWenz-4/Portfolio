@@ -50,7 +50,7 @@ const Blog = () => (
 		<TextWrapper>
 			<h1>First Steps to Understanding Docker</h1>
 		</TextWrapper>
-		<ImageLink to="/docker-details">
+		<ImageLink to="/Portfolio/docker-details">
 			<Image src={docker} alt="Blog Visual" />
 		</ImageLink>
 	</BlogWrapper>
