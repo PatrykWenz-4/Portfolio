@@ -12,11 +12,23 @@ const Header = () => {
 			</div>
 			<nav className="header-nav">
 				<ul className="nav-links">
-					<li><a href="/Home/#About">About</a></li>
-					<li><a href="/Home/#workExperience">Work Experience</a></li>
-					<li><a href="/Home/#RelevantExperience">Relevant Experience</a></li>
-					<li><a href="/Home/#ContactMe">Contact Me</a></li>
-					<li><Link to="/blog">My Blog</Link></li>
+					<li>
+						<a href="/Home/#About">About</a>
+					</li>
+					<li>
+						<a href="/Home/#workExperience">Work Experience</a>
+					</li>
+					<li>
+						<a href="/Home/#RelevantExperience">
+							Relevant Experience
+						</a>
+					</li>
+					<li>
+						<a href="/Home/#ContactMe">Contact Me</a>
+					</li>
+					<li>
+						<Link to="/blog">My Blog</Link>
+					</li>
 				</ul>
 			</nav>
 		</section>
