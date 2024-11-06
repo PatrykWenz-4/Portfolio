@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./components/About/About";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import RelevantExperience from "./components/RelevantExperience/RelevantExperience";
@@ -11,7 +11,6 @@ import 'primereact/resources/themes/lara-light-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css'; 
 
-
 function App() {
 	return (
 		<Router>
@@ -19,8 +18,7 @@ function App() {
 				<header className="App-header">
 					<Header />
 					<Routes>
-						<Route
-							path="/Home"
+						<Route path="/"
 							element={
 								<>
 									<section id="About">
