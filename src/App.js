@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom"; // Use HashRouter
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./components/About/About";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import RelevantExperience from "./components/RelevantExperience/RelevantExperience";
