@@ -2,9 +2,9 @@ body {
 	overflow-x: hidden;
 }
 
-.contactMe-contactMe-section {
+.footer-section {
 	width: 100vw;
-	background-color: #76c4ae;
+	background-color: #2b78c5;
 	min-height: 10vh;
 	padding: 2rem 0;
 	position: relative;
@@ -12,44 +12,44 @@ body {
 	flex-direction: column;
 }
 
-.contactMe-contactMe-title {
+.footer-title {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
 	font-weight: bold;
 }
 
-.contactMe-contactMe-tech-used {
+.footer-tech-used {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
 	font-weight: bold;
 }
 
-.contactMe-content {
+.footer-content {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 0 20rem;
 }
 
-.contactMe-image {
+.footer-image {
 	width: 60%;
 	height: auto;
 	margin-right: 2rem;
 }
 
-.contactMe-text-container {
+.footer-text-container {
 	text-align: left;
 	flex: 1;
 }
-.contactMe-spacer {
+.footer-spacer {
 	height: 20px;
 	width: 100%;
 	background-color: #282c34;
 }
 
-.contactMe-mail {
+.footer-mail {
 	margin-top: 2rem;
     text-align: center;
 	margin-bottom: 8rem;

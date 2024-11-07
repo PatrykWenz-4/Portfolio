@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
 	return (
-		<section className="Footer--Footer--section">
+		<section className="footer-section">
 				<footer className="p-4 font-semibold">
 					<h1>
 						&copy;
