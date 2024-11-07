@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./components/About/About";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
@@ -10,6 +10,15 @@ import Blog from "./components/Blog/Blog";
 import DockerDetails from "./components/Blog/DockerDetails";
 
 function App() {
+	useEffect(() => {
+		if (window.location.hash) {
+			const anchor = document.querySelector(window.location.hash);
+			if (anchor) {
+				anchor.scrollIntoView({ behavior: "smooth" });
+			}
+		}
+	}, [window.location.hash]);
+
 	return (
 		<Router>
 			<div className="App">
