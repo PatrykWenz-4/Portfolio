@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bd89497b.css",
-    "main.js": "/Portfolio/static/js/main.3871809b.js",
-    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
-    "index.html": "/Portfolio/index.html",
-    "main.bd89497b.css.map": "/Portfolio/static/css/main.bd89497b.css.map",
-    "main.3871809b.js.map": "/Portfolio/static/js/main.3871809b.js.map",
-    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio/Home/static/css/main.6be6f3f6.css",
+    "main.js": "/Portfolio/Home/static/js/main.84686eef.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/Home/static/js/453.1407b060.chunk.js",
+    "static/media/InterVariable-Italic.woff2": "/Portfolio/Home/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
+    "static/media/InterVariable.woff2": "/Portfolio/Home/static/media/InterVariable.a0e477f2f1f9d2376fde.woff2",
+    "static/media/primeicons.svg": "/Portfolio/Home/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/primeicons.eot": "/Portfolio/Home/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/Portfolio/Home/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/Portfolio/Home/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/primeicons.woff2": "/Portfolio/Home/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/docker.png": "/Portfolio/Home/static/media/docker.efef6ee4adb9bde24a5c.png",
+    "index.html": "/Portfolio/Home/index.html",
+    "main.6be6f3f6.css.map": "/Portfolio/Home/static/css/main.6be6f3f6.css.map",
+    "main.84686eef.js.map": "/Portfolio/Home/static/js/main.84686eef.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/Home/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd89497b.css",
-    "static/js/main.3871809b.js"
+    "static/css/main.6be6f3f6.css",
+    "static/js/main.84686eef.js"
   ]
 }
