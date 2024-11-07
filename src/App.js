@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./components/About/About";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import RelevantExperience from "./components/RelevantExperience/RelevantExperience";
@@ -7,10 +7,9 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Blog from "./components/Blog/Blog";
 import DockerDetails from "./components/Blog/DockerDetails";
-import 'primereact/resources/themes/lara-light-blue/theme.css'; 
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css'; 
-
+import "primereact/resources/themes/lara-light-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 
 function App() {
 	return (
