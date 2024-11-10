@@ -2,6 +2,7 @@ import React from "react";
 import docker from "./docker.png";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion"
 
 const BlogWrapper = styled.div`
 	display: flex;
@@ -20,7 +21,6 @@ const TextWrapper = styled.div`
 `;
 
 const ImageLink = styled(Link)`
-	/* Use Link component instead of a */
 	display: inline-block;
 	width: 20vw;
 	height: auto;
@@ -50,7 +50,7 @@ const Blog = () => (
 		<TextWrapper>
 			<h1>First Steps to Understanding Docker</h1>
 		</TextWrapper>
-		<ImageLink to="/Portfolio/docker-details">
+		<ImageLink to="/Portfolio/Blog/docker-details">
 			<Image src={docker} alt="Blog Visual" />
 		</ImageLink>
 	</BlogWrapper>

@@ -1,10 +1,40 @@
 import "./About.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import styled from "styled-components";
+import Face from "./Face.png";
+import { motion } from "framer-motion";
 
+const Section = styled.section`
+	display: flex;
+	align-items: center;
+	padding: 2rem;
+`;
+
+const TextContainer = styled.div`
+	max-width: 640px;
+	margin-right: 2rem;
+`;
+
+const Image = styled.img`
+	width: 100%;
+	height: auto;
+	margin-left: 15rem;
+	flex-direction: column;
+	display: flex;
+
+`;
 const About = () => {
 	return (
-		<section className="about-section">
-			<div className="about-text-container">
+		<motion.h1
+		initial={{ opacity: 0, scale: 0.5 }}  
+		animate={{ opacity: 1, scale: 1 }}  
+		transition={{ duration: 0.5 }}     
+	  >
+		<Section className="about-section">
+			<TextContainer className="about-text-container">
+
+
+
 				<h2>Hi, my name is</h2>
 				<h1>Patryk Wenz</h1>
 				<h3>
@@ -12,11 +42,8 @@ const About = () => {
 					innovative solutions. I am currently researching vector
 					databases, including
 				</h3>
-				<h3 className="about-text-container-special">
-					Qdrant and Streamlit.
-				</h3>
+				<h3 className="about-text-container-special">Qdrant and Streamlit.</h3>
 				<div className="about-social-links">
-					{/* Github Link */}
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
@@ -25,7 +52,6 @@ const About = () => {
 					>
 						<FaGithub />
 					</a>
-					{/* LinkedIn Link */}
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
@@ -35,8 +61,12 @@ const About = () => {
 						<FaLinkedin />
 					</a>
 				</div>
-			</div>
-		</section>
+			</TextContainer>
+			<Image src={Face} alt="Blog Visual" />
+			
+		</Section>
+		</motion.h1>
+
 	);
 };
 
