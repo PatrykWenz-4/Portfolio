@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Blog from "./components/Blog/Blog";
 import DockerDetails from "./components/Blog/docker_11_10_24/DockerDetails";
+import Ollama from "./components/Blog/Ollama/Ollama";
 import 'primereact/resources/themes/lara-light-blue/theme.css'; 
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css'; 
@@ -42,7 +43,9 @@ function App() {
 							}
 						/>
 						<Route path="/Portfolio/blog" element={<Blog />} />
-						<Route path="/Portfolio/Blog/docker-details" element={<DockerDetails />} />
+						<Route path="/Portfolio/Blog/DockerDetails" element={<DockerDetails />} />
+						<Route path="/Portfolio/Blog/Ollama" element={<Ollama />} />
+
 					</Routes>
 				</header>
 			</div>

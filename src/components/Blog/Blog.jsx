@@ -1,8 +1,6 @@
 import React from "react";
 import docker from "./docker.png";
 import springOllama from "./springOllama.png";
-
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -24,7 +22,7 @@ const Blog = () => (
 				<Button
 					variant="primary"
 					as={Link}
-					to="/Portfolio/Blog/docker-details"
+					to="/Portfolio/blog/DockerDetails"
 				>
 					Go to the article
 				</Button>
@@ -43,7 +41,7 @@ const Blog = () => (
 				<Button
 					variant="primary"
 					as={Link}
-					to="/Portfolio/Blog/docker-details"
+					to="/Portfolio/blog/Ollama"
 				>
 					Go to the article
 				</Button>
